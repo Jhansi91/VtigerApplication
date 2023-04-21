@@ -38,12 +38,8 @@
     <version>7.7.0</version>
    
 </dependency>
-
-
-
   </dependencies>
-  
-  
+ 
   <profiles>
 	  <profile>
 		  <id>smoketesting</id>
@@ -64,6 +60,7 @@
 			  </pluginManagement>
 		  </build>
 	  </profile>
+	  
 	  
 	  <profile>
 		  <id>sanitytesting</id>
