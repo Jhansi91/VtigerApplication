@@ -2,54 +2,48 @@
 <testng-results ignored="0" total="1" passed="1" failed="0" skipped="0">
   <reporter-output>
   </reporter-output>
-  <suite started-at="2023-04-20T11:36:19 IST" name="Default suite" finished-at="2023-04-20T11:36:38 IST" duration-ms="18701">
+  <suite started-at="2023-04-22T12:17:06 IST" name="Default suite" finished-at="2023-04-22T12:17:22 IST" duration-ms="16637">
     <groups>
-      <group name="regressiontesting">
-        <method signature="CreateAndDeleteProductTest.createAndDeleteProductTest()[pri:0, instance:Products.CreateAndDeleteProductTest@7ed7259e]" name="createAndDeleteProductTest" class="Products.CreateAndDeleteProductTest"/>
-      </group> <!-- regressiontesting -->
-      <group name="smoketesting">
-        <method signature="CreateAndDeleteProductTest.createAndDeleteProductTest()[pri:0, instance:Products.CreateAndDeleteProductTest@7ed7259e]" name="createAndDeleteProductTest" class="Products.CreateAndDeleteProductTest"/>
-      </group> <!-- smoketesting -->
     </groups>
-    <test started-at="2023-04-20T11:36:19 IST" name="Default test" finished-at="2023-04-20T11:36:38 IST" duration-ms="18701">
-      <class name="Products.CreateAndDeleteProductTest">
-        <test-method is-config="true" signature="BS()[pri:0, instance:Products.CreateAndDeleteProductTest@7ed7259e]" started-at="2023-04-20T11:36:19 IST" name="BS" finished-at="2023-04-20T11:36:19 IST" duration-ms="6" status="PASS">
+    <test started-at="2023-04-22T12:17:06 IST" name="Default test" finished-at="2023-04-22T12:17:22 IST" duration-ms="16637">
+      <class name="Campaigns.CreateCampaignTest">
+        <test-method is-config="true" signature="BS()[pri:0, instance:Campaigns.CreateCampaignTest@1ea9f6af]" started-at="2023-04-22T12:17:06 IST" name="BS" finished-at="2023-04-22T12:17:06 IST" duration-ms="7" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- BS -->
-        <test-method is-config="true" signature="BT()[pri:0, instance:Products.CreateAndDeleteProductTest@7ed7259e]" started-at="2023-04-20T11:36:19 IST" name="BT" finished-at="2023-04-20T11:36:19 IST" duration-ms="1" status="PASS">
+        <test-method is-config="true" signature="BT()[pri:0, instance:Campaigns.CreateCampaignTest@1ea9f6af]" started-at="2023-04-22T12:17:06 IST" name="BT" finished-at="2023-04-22T12:17:06 IST" duration-ms="1" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- BT -->
-        <test-method is-config="true" signature="BC()[pri:0, instance:Products.CreateAndDeleteProductTest@7ed7259e]" started-at="2023-04-20T11:36:19 IST" name="BC" finished-at="2023-04-20T11:36:21 IST" duration-ms="2000" status="PASS">
+        <test-method is-config="true" signature="BC()[pri:0, instance:Campaigns.CreateCampaignTest@1ea9f6af]" started-at="2023-04-22T12:17:06 IST" name="BC" finished-at="2023-04-22T12:17:08 IST" duration-ms="2379" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- BC -->
-        <test-method is-config="true" signature="BM()[pri:0, instance:Products.CreateAndDeleteProductTest@7ed7259e]" started-at="2023-04-20T11:36:21 IST" name="BM" finished-at="2023-04-20T11:36:24 IST" duration-ms="3484" status="PASS">
+        <test-method is-config="true" signature="BM()[pri:0, instance:Campaigns.CreateCampaignTest@1ea9f6af]" started-at="2023-04-22T12:17:08 IST" name="BM" finished-at="2023-04-22T12:17:12 IST" duration-ms="4219" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- BM -->
-        <test-method signature="createAndDeleteProductTest()[pri:0, instance:Products.CreateAndDeleteProductTest@7ed7259e]" started-at="2023-04-20T11:36:24 IST" name="createAndDeleteProductTest" finished-at="2023-04-20T11:36:36 IST" duration-ms="11585" status="PASS">
+        <test-method signature="createCampaignTest()[pri:0, instance:Campaigns.CreateCampaignTest@1ea9f6af]" started-at="2023-04-22T12:17:12 IST" name="createCampaignTest" finished-at="2023-04-22T12:17:20 IST" duration-ms="8132" status="PASS">
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- createAndDeleteProductTest -->
-        <test-method is-config="true" signature="AM()[pri:0, instance:Products.CreateAndDeleteProductTest@7ed7259e]" started-at="2023-04-20T11:36:36 IST" name="AM" finished-at="2023-04-20T11:36:37 IST" duration-ms="1498" status="PASS">
+        </test-method> <!-- createCampaignTest -->
+        <test-method is-config="true" signature="AM()[pri:0, instance:Campaigns.CreateCampaignTest@1ea9f6af]" started-at="2023-04-22T12:17:20 IST" name="AM" finished-at="2023-04-22T12:17:22 IST" duration-ms="1720" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- AM -->
-        <test-method is-config="true" signature="AC()[pri:0, instance:Products.CreateAndDeleteProductTest@7ed7259e]" started-at="2023-04-20T11:36:37 IST" name="AC" finished-at="2023-04-20T11:36:38 IST" duration-ms="111" status="PASS">
+        <test-method is-config="true" signature="AC()[pri:0, instance:Campaigns.CreateCampaignTest@1ea9f6af]" started-at="2023-04-22T12:17:22 IST" name="AC" finished-at="2023-04-22T12:17:22 IST" duration-ms="152" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- AC -->
-        <test-method is-config="true" signature="AT()[pri:0, instance:Products.CreateAndDeleteProductTest@7ed7259e]" started-at="2023-04-20T11:36:38 IST" name="AT" finished-at="2023-04-20T11:36:38 IST" duration-ms="0" status="PASS">
+        <test-method is-config="true" signature="AT()[pri:0, instance:Campaigns.CreateCampaignTest@1ea9f6af]" started-at="2023-04-22T12:17:22 IST" name="AT" finished-at="2023-04-22T12:17:22 IST" duration-ms="0" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- AT -->
-        <test-method is-config="true" signature="AS()[pri:0, instance:Products.CreateAndDeleteProductTest@7ed7259e]" started-at="2023-04-20T11:36:38 IST" name="AS" finished-at="2023-04-20T11:36:38 IST" duration-ms="0" status="PASS">
+        <test-method is-config="true" signature="AS()[pri:0, instance:Campaigns.CreateCampaignTest@1ea9f6af]" started-at="2023-04-22T12:17:22 IST" name="AS" finished-at="2023-04-22T12:17:22 IST" duration-ms="0" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- AS -->
-      </class> <!-- Products.CreateAndDeleteProductTest -->
+      </class> <!-- Campaigns.CreateCampaignTest -->
     </test> <!-- Default test -->
   </suite> <!-- Default suite -->
 </testng-results>
